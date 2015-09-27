@@ -26,30 +26,27 @@ NOTE: script has to be started several times, maybe using parameter --insight in
 == Using Geth
 
 * Start Geth in private network
-[source,bash]
-----
-geth --networkid 77777 --genesis genesis_block.json --datadir ~/.ethereum_experiment console
-----
+
+ geth --networkid 77777 --genesis genesis_block.json --datadir ~/.ethereum_experiment console
+
 
 * Create accounts
-----
-personal.newAccount("first passphrase")
-personal.newAccount("second passphrase")
-----
+
+ personal.newAccount("first passphrase")
+ personal.newAccount("second passphrase")
+
 ** Note the generated hashes, these are the account identifies
 
 var primaryAccount = web3.eth.accounts[0]
 
-changes in genesis_block.json
-[source,javascript]
-----
-"alloc": {
-    "INSERT_ACCOUNT_HASH_HERE": {
-        "balance": "1337000000000000000000"
-    },
-scroll down
-"gasLimit": "0x13880000"
-----
+* changes in genesis_block.json
+
+ "alloc": {
+     "INSERT_ACCOUNT_HASH_HERE": {
+         "balance": "1337000000000000000000"
+     },
+ scroll down
+ "gasLimit": "0x13880000"
 
  var sender    = web3.eth.accounts[0];
  var recipient = web3.eth.accounts[1];
