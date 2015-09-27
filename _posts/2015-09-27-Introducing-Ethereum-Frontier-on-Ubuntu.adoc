@@ -12,12 +12,11 @@ An introduction to the link:http://ethereum.org[Ethereum Frontier-Release].
 ** Follow link:https://blog.ethereum.org/2015/07/27/final-steps/[instructions] to create genesis_block.json
 *** Use this hash in creation: 0x11bbe8db4e347b4e8c937c1c8370e4b5ed33adb3db69cbdb7a38e1e50b1b82fa (why?)
 *** Download link:https://raw.githubusercontent.com/ethereum/genesis_block_generator/master/mk_genesis_block.py[Python script] to local file mk_genesis_block.py
-[source,bash]
-----
-curl -O https://bootstrap.pypa.io/get-pip.py
-sudo python get-pip.py
-python mk_genesis_block.py --extradata 0x11bbe8db4e347b4e8c937c1c8370e4b5ed33adb3db69cbdb7a38e1e50b1b82fa > genesis_block.json
-----
+ 
+ curl -O https://bootstrap.pypa.io/get-pip.py
+ sudo python get-pip.py
+ python mk_genesis_block.py --extradata 0x11bbe8db4e347b4e8c937c1c8370e4b5ed33adb3db69cbdb7a38e1e50b1b82fa > genesis_block.json
+
 
 NOTE: script has to be started several times, maybe using parameter --insight in between
 
