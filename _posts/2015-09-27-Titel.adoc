@@ -4,4 +4,4 @@ und so weiter
 == Test 
 Yes, here we go again......
 
-image::ice09ng/images/133H.jpg[]
+image::https://github.com/ice09/ice09ng/blob/gh-pages/images/133H.jpg[]
