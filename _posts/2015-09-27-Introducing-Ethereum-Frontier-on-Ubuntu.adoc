@@ -72,13 +72,13 @@ var primaryAccount = web3.eth.accounts[0]
 
 
 * get balance
+
  web3.eth.getBalance(recipient)
 
-
-sudo add-apt-repository ppa:ethereum/ethereum
-sudo apt-get update
-sudo apt-get install solc
-which solc
+ sudo add-apt-repository ppa:ethereum/ethereum
+ sudo apt-get update
+ sudo apt-get install solc
+ which solc
 
 * start client & listen to cosmo.to
 
