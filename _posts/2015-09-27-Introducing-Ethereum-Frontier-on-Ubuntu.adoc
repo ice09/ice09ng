@@ -36,7 +36,7 @@ NOTE: script has to be started several times, maybe using parameter --insight in
 
 ** Note the generated hashes, these are the account identifies
 
-var primaryAccount = web3.eth.accounts[0]
+ var primaryAccount = web3.eth.accounts[0]
 
 * changes in genesis_block.json
 
