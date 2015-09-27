@@ -45,7 +45,9 @@ var primaryAccount = web3.eth.accounts[0]
      "INSERT_ACCOUNT_HASH_HERE": {
          "balance": "1337000000000000000000"
      },
- scroll down
+
+scroll down
+
  "gasLimit": "0x13880000"
 
  var sender    = web3.eth.accounts[0];
